@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBrain, FaCamera } from "react-icons/fa6";
 import { FaExclamationCircle } from "react-icons/fa";
-const DashboardWork = () => {
+const HeroWork = () => {
   return (
     <div className="py-10">
       <h2 className="text-center text-4xl font-bold">How GlowScan Works</h2>
@@ -45,4 +45,4 @@ const DashboardWork = () => {
   );
 };
 
-export default DashboardWork;
+export default HeroWork;

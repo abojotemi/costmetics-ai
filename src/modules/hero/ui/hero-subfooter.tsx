@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 
-const DashboardSubFooter = () => {
+const HeroSubFooter = () => {
   return (
     <div className="bg-gradient-to-r from-primary to-primary/85 *:text-white p-10 space-y-8">
       <h1 className="text-4xl text-center font-bold">
@@ -34,4 +34,4 @@ const DashboardSubFooter = () => {
   );
 };
 
-export default DashboardSubFooter;
+export default HeroSubFooter;

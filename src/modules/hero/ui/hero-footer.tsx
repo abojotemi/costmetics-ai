@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa6";
 
-const DashboardFooter = () => {
+const HeroFooter = () => {
   return (
     <div className="bg-dark-crimson *:text-white p-5 md:p-10 space-y-7">
       <div className="grid md:grid-cols-4 gap-6 md:gap-3  md:w-9/10 mx-auto">
@@ -14,16 +14,16 @@ const DashboardFooter = () => {
           </p>
           <div>
             <div className="flex space-x-3">
-              <a href="#" className=" hover:text-white">
+              <a href="#" className=" hover:text-primary">
                 <FaInstagram className="size-5" />
               </a>
-              <a href="#" className=" hover:text-white">
+              <a href="#" className=" hover:text-primary">
                 <FaTiktok className="size-5" />
               </a>
-              <a href="#" className=" hover:text-white">
+              <a href="#" className=" hover:text-primary">
                 <FaFacebook className="size-5" />
               </a>
-              <a href="#" className=" hover:text-white">
+              <a href="#" className=" hover:text-primary">
                 <FaYoutube className="size-5" />
               </a>
             </div>
@@ -65,4 +65,4 @@ const DashboardFooter = () => {
   );
 };
 
-export default DashboardFooter;
+export default HeroFooter;

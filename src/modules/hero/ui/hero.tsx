@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import React from "react";
 
-const DashboardHero = () => {
+const Hero = () => {
   return (
     <div className="bg-primary/10 py-12 text-raisin-black">
       <div className="grid lg:grid-cols-2 gap-6 max-lg:gap-y-12 md:px-28 items-center">
@@ -34,7 +34,7 @@ const DashboardHero = () => {
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element*/}
           <img
-            src="black-woman-2.png"
+            src="bg-woman-blue.png"
             alt="lady"
             className="rounded-xl shadow-2xl h-130 w-11/12 object-cover max-md:size-9/10 mx-auto transition-transform duration-300 hover:shadow-2xl"
           />
@@ -44,4 +44,4 @@ const DashboardHero = () => {
   );
 };
 
-export default DashboardHero;
+export default Hero;

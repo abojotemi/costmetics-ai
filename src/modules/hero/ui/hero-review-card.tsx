@@ -1,7 +1,7 @@
 import React from "react";
 import ReviewCard from "../components/review-card";
 
-const DashboardReviewCard = () => {
+const HeroReviewCard = () => {
   return (
     <div className="bg-primary/5">
       <div className="grid md:grid-cols-3 p-6 md:p-20 gap-5 lg:w-9/10 mx-auto place-content-center">
@@ -28,4 +28,4 @@ const DashboardReviewCard = () => {
   );
 };
 
-export default DashboardReviewCard;
+export default HeroReviewCard;
