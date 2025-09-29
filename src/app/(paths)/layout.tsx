@@ -2,6 +2,7 @@
 import Navbar from "@/modules/components/navbar";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
+import { RedirectToSignIn, SignedIn } from "@daveyplate/better-auth-ui";
 
 export default function RootLayout({
   children,
@@ -9,6 +10,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <>
+    <RedirectToSignIn/>
+    <SignedIn>
       <SidebarProvider>
         <AppSidebar />
         
@@ -21,5 +25,7 @@ export default function RootLayout({
             </div>
         
       </SidebarProvider>
+    </SignedIn>
+    </>
   );
 }

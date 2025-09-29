@@ -6,8 +6,8 @@ import {
   Search,
   Activity,
   AudioWaveform,
-  LogOut,
 } from "lucide-react";
+import { UserButton } from "@daveyplate/better-auth-ui";
 
 import {
   Sidebar,
@@ -91,12 +91,7 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
       <SidebarFooter>
-        <Link href="/login" className="ml-4 cursor-pointer">
-          <div className="flex space-x-3">
-            <LogOut />
-            <p>Logout</p>
-          </div>
-        </Link>
+        <UserButton />
       </SidebarFooter>
     </Sidebar>
   );
